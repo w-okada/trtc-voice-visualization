@@ -7,6 +7,7 @@
 }
 .header{
     width:100%;
+    height:4rem;
     display: flex;
     flex-direction: row;
     background: #ddd;
@@ -34,7 +35,7 @@
 
 .body{
     width:100%;
-    height:80%;
+    height: calc(100% - 4rem);
     background:#333;
     display: flex;
     flex-direction: row;
@@ -44,23 +45,19 @@
 
 }
 .remote-video-container{
-    width:70%;
+    margin:5px;
+    width:50%;
     display:flex;
     flex-direction:row;
 }
 
 
-
-.local-video-element-container{
-    width:100%;
-}
-.local-video-element{
-    width:100%;
-}
-
 .local-video-container{
-    width:10%;
+    margin:5px;
+    width:50%;
+    transform: scaleX(-1);
 }
+
 
 .hidden-resources{
     position:absolute;
