@@ -20,9 +20,14 @@ VOICEVOX:春日部つむぎ
 You need to edit src/const.ts.
 
 ```
-$ git clone https://github.com/w-okada/trtc-voice-visualization.git
-$ cd trtc-simple-demo-ts
+$ git clone https://github.com/w-okada/trtc-voice-visualization.git -b qiita-advent-2022
+$ cd trtc-voice-visualization/
 $ npm install
 # edit src/const.ts
+$ npm run build:worklet
 $ npm run start
 ```
+# reference
+
+[TRTCを使って豊かな字幕の表現を持つ音声チャットシステムをつくる。](https://qiita.com/wok/items/ba9f5fdfef0e7c32dc0c) (Japanese)
+
